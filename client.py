@@ -12,7 +12,7 @@ def get_groq_response(input_text, language):
     }
 
     response = requests.post(
-        "http://127.0.0.1:8000/chain/invoke",
+        "https://language-translation-llm-model.onrender.com/chain/invoke",
         json=json_body
     )
 
@@ -40,4 +40,5 @@ language = st.selectbox(
 # Translate on input
 if input_text:
     translation = get_groq_response(input_text, language)
+
     st.write("**Translated Text:**", translation)
