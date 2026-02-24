@@ -1,0 +1,43 @@
+# Core Python environment
+python-dotenv
+ipykernel
+
+# LangChain core modules
+langchain
+langchain-core   #we will tell how llm model should behave
+langchain-community
+langchain_community
+langchain-text-splitters
+langchain-openai
+langchain-huggingface
+langchain-chroma
+#opensource api key
+langchain_groq
+
+# Vector Databases
+faiss-cpu
+chromadb
+
+# Embeddings & ML
+sentence-transformers
+
+# Document loaders
+pypdf
+pymupdf
+beautifulsoup4
+bs4
+wikipedia
+arxiv
+
+# Optional (if using OpenAI API)
+openai
+
+# Optional (if using Ollama locally)
+ollama
+
+
+streamlit
+fastapi
+uvicorn
+langserve
+sse-starlette
